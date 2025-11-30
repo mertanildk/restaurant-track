@@ -9,6 +9,4 @@ public class TableEntity extends BaseEntity {
     
     private String tableNumber;
 
-
-
 }
