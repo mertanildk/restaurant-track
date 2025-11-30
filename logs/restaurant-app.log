@@ -1,0 +1,44 @@
+2025-11-30T23:12:31.442+03:00  INFO 16840 --- [restartedMain] c.e.r.RestaurantTrackApplication         : Starting RestaurantTrackApplication using Java 25.0.1 with PID 16840 (/Users/mertanil/Documents/restaurant-track/target/classes started by mertanil in /Users/mertanil/Documents/restaurant-track)
+2025-11-30T23:12:31.451+03:00 DEBUG 16840 --- [restartedMain] c.e.r.RestaurantTrackApplication         : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-30T23:12:31.452+03:00  INFO 16840 --- [restartedMain] c.e.r.RestaurantTrackApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-30T23:12:31.471+03:00  INFO 16840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-30T23:12:31.471+03:00  INFO 16840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-30T23:12:31.707+03:00  INFO 16840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-30T23:12:31.718+03:00  INFO 16840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2025-11-30T23:12:31.880+03:00  INFO 16840 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-30T23:12:31.884+03:00  INFO 16840 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-30T23:12:31.884+03:00  INFO 16840 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-30T23:12:31.896+03:00  INFO 16840 --- [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 425 ms
+2025-11-30T23:12:31.968+03:00  INFO 16840 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-30T23:12:31.988+03:00  INFO 16840 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-11-30T23:12:32.124+03:00  INFO 16840 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-30T23:12:32.136+03:00  INFO 16840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-30T23:12:32.193+03:00  INFO 16840 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:restaurantdb user=SA
+2025-11-30T23:12:32.193+03:00  INFO 16840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-30T23:12:32.213+03:00  INFO 16840 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:restaurantdb]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: RESTAURANTDB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-30T23:12:32.332+03:00  INFO 16840 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-30T23:12:32.335+03:00  INFO 16840 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-30T23:12:32.357+03:00  WARN 16840 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-30T23:12:32.484+03:00  INFO 16840 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-30T23:12:32.512+03:00  INFO 16840 --- [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-11-30T23:12:32.515+03:00  INFO 16840 --- [restartedMain] c.e.r.RestaurantTrackApplication         : Started RestaurantTrackApplication in 1.196 seconds (process running for 1.331)
+2025-11-30T23:12:53.336+03:00  INFO 16840 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-30T23:12:53.336+03:00  INFO 16840 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-30T23:12:53.337+03:00  INFO 16840 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-11-30T23:15:32.037+03:00  INFO 16840 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-30T23:15:32.043+03:00  INFO 16840 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-11-30T23:15:32.046+03:00  INFO 16840 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-30T23:15:32.049+03:00  WARN 16840 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-240]
+2025-11-30T23:15:32.049+03:00  INFO 16840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-30T23:15:32.050+03:00  INFO 16840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
