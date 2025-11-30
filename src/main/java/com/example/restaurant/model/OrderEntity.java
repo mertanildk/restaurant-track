@@ -8,5 +8,7 @@ import jakarta.persistence.Entity;
 public class OrderEntity extends BaseEntity {
     
     private String orderNumber;
+    private Double amount;
+    
 
 }
