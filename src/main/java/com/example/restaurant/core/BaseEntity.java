@@ -6,7 +6,9 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jakarta.persistence.MappedSuperclass;
 
+@MappedSuperclass
 public abstract class BaseEntity {
 
     public BaseEntity() {

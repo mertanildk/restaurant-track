@@ -54,7 +54,8 @@
             <artifactId>spring-boot-starter-websocket</artifactId>
         </dependency>
 
-        <!-- DevTools -->
+        <!-- DevTools
+        yeniden başlatmaya gerek kalmıyor -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
